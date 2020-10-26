@@ -27,7 +27,7 @@ public class ApiController {
         User user = new User();
         user.setId(1L);
         user.setName(principal.getName());
-//        repo.save(user);
+        repo.save(user);
         return user;
     }
 
